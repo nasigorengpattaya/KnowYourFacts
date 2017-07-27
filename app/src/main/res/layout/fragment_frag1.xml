@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sg.edu.rp.c346.knowyourfacts.Frag1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/btnColour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Colour" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_orange_light"
+                android:padding="16dp"
+                android:text="The Guinness Book of World Records holds the record for being the book most often stolen from libraries."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_orange_light"
+                android:padding="16dp"
+                android:text="You can plant a pineapple by slicing off the top and planting it in the soil."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_orange_light"
+                android:padding="16dp"
+                android:text="Chuck Norris tried to uproot a tree once. That area later became known as the Himalaya Mountains"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_orange_light"
+                android:padding="16dp"
+                android:text="Palm trees are part of the grass family"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

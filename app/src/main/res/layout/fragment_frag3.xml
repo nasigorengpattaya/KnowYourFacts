@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sg.edu.rp.c346.knowyourfacts.Frag3">
+
+    <Button
+        android:id="@+id/btnColour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Colour" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_green_light"
+                android:padding="16dp"
+                android:text="Cards Against Humanity raised over $90,000 in donations to dig a hole for no reason."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_green_light"
+                android:padding="16dp"
+                android:text="hippopotomonstrosesquipedaliophobia is the fear of long words."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_green_light"
+                android:padding="16dp"
+                android:text="What do you call a sad strawberry? A blueberry."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_green_light"
+                android:padding="16dp"
+                android:text="A day on Venus is longer than a year on Venus."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
